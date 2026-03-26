@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anica Qian Portfolio</title>
+  <link rel="stylesheet" href="cssreset.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+
+    
+    <header class="header">
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu"
+  onclick="document.getElementById('siteNav').classList.toggle('open'); this.classList.toggle('active');">
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav" id="siteNav">
+    <a href="#about" class="nav-link">About me</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#qa" class="nav-link">Q&amp;A</a>
+    <a href="#footer" class="nav-link">Contact</a>
+  </nav>
+
+  <label class="theme-toggle" for="themeCheckbox" aria-label="Toggle dark mode">
+    <input type="checkbox" id="themeCheckbox" />
+    <span class="theme-slider"></span>
+  </label>
+</header>
+   
+    <main>
+      <section class="hero section" id="about">
+        <div class="hero-left">
+          <p class="hero-tag serif-title">Interaction Designer</p>
+          <h1 class="hero-title serif-title">Hello<br />I'm Anica Qian !</h1>
+          <p class="hero-intro">
+            My name is Anica Qian (Zixian Qian). I’m from Shenzhen, China,
+            and I’m 21 years old. I’m currently in Term 8 of the Interaction
+            Design program at ArtCenter College of Design, working and developing
+            as an interaction designer.
+          </p>
+          <button class="primary-btn">Show more</button>
+        </div>
+
+        <div class="hero-right">
+  <div class="hero-photo-card">
+    <img class="hero-img active" src="img1.jpg" />
+    <img class="hero-img" src="img2.jpg" />
+    <img class="hero-img" src="img3.jpg" />
+  </div>
+</div>
+      </section>
+
+      
+      <section class="section about-strip">
+        <div class="info-card">
+          <h3 class="serif-title">About Me</h3>
+          <p>
+            Passionate about building thoughtful digital experiences with a
+            balance of visual design, storytelling, and usability.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3 class="serif-title">Focus</h3>
+          <p>
+            UI/UX design, interaction systems, graphic language, and portfolio
+            storytelling across digital products.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3 class="serif-title">Location</h3>
+          <p>
+            Shenzhen / Pasadena / Los Angeles. Open to creative collaboration,
+            internship, and design opportunities.
+          </p>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-head">
+          <h2 class="section-title serif-title">Project</h2>
+
+          <div class="filter-group">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">UI/UX</button>
+            <button class="filter-btn">Graphic Design</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card large-card">
+  <img src="img7.jpg" alt="MOODOG project" />
+
+  <div class="project-overlay">
+    <span class="project-label">UI Design</span>
+    <h3 class="project-name serif-title">MOODOG</h3>
+  </div>
+
+  <div class="project-hover-content">
+    <span class="project-label">UI Design</span>
+    <h3 class="project-name serif-title">MOODOG</h3>
+    <p class="project-description">
+      Moodog is a solution platform that records your dog's mood changes
+      and brings it closer to you.
+      <br /><br />
+      Better for people understand their dogs. A special pattern will be
+      created that represents the daily relationship between dogs and
+      masters. Make the information can be clearly understand and considered.
+    </p>
+  </div>
+</article>
+
+         <article class="project-card large-card">
+  <img src="img5.jpg" alt="Friends Battle project" />
+
+  <div class="project-overlay">
+    <span class="project-label">Final UI Design</span>
+    <h3 class="project-name serif-title">Friends Battle</h3>
+  </div>
+
+  <div class="project-hover-content">
+    <span class="project-label">Final UI Design</span>
+    <h3 class="project-name serif-title">Friends Battle</h3>
+    <h4 class="project-subtitle">Chinese hand writing</h4>
+    <p class="project-description">
+      Oratouch is an interactive Chinese learning app that helps users
+      learn vocabulary and practice handwriting in a fun way. It combines
+      translation, visualized character meanings, and a personalized word
+      bank to support language learning. 
+  </div>
+</article>
+
+          <article class="project-card small-card">
+  <img
+    src="img9.jpg"
+    alt="Poster design 1"
+  />
+  <div class="project-overlay">
+    <h3 class="project-name serif-title">Poster Design</h3>
+  </div>
+</article>
+          <article class="project-card small-card">
+            <img
+              src="img10.jpg"
+              alt="Poster design 2"
+            />
+          </article>
+
+          <article class="project-card small-card">
+            <img
+              src="img21.jpg"
+              alt="Poster design 3"
+            />
+          </article>
+        </div>
+
+       
+      </section>
+
+      
+      <section class="section qa-section" id="qa">
+        <div class="section-head">
+          <h2 class="section-title serif-title">Q&amp;A</h2>
+        </div>
+
+        <div class="qa-grid">
+          
+           <a href="why-artcenter.html" class="qa-card qa-link-card">
+  <img src="img11.png" alt="Why ArtCenter" />
+  <div class="qa-overlay">
+    <div class="qa-top">
+      <span class="qa-pill">View All</span>
+      <span class="qa-arrow">›</span>
+    </div>
+    <h3 class="qa-title serif-title">Why<br />ArtCenter</h3>
+  </div>
+</a>
+
+          <a href="experience-sharing.html" class="qa-card qa-link-card">
+  <img
+    src="img12.png"
+    alt="Experience Sharing"
+  />
+  <div class="qa-overlay">
+    <div class="qa-top">
+      <span class="qa-pill">View All</span>
+      <span class="qa-arrow">›</span>
+    </div>
+    <h3 class="qa-title serif-title">Experience<br />Sharing</h3>
+  </div>
+</a>
+
+          <a href="future-plan.html" class="qa-card qa-link-card">
+  <img
+    src="img13.png"
+    alt="Future Plan"
+  />
+  <div class="qa-overlay">
+    <div class="qa-top">
+      <span class="qa-pill">View All</span>
+      <span class="qa-arrow">›</span>
+    </div>
+    <h3 class="qa-title serif-title">Future<br />Plan</h3>
+  </div>
+</a>
+        </div>
+      </section>
+    </main>
+
+   
+    <footer class="footer" id="footer">
+      <div class="footer-brand serif-title">★ Anica Qian</div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="#about">About me</a>
+          <a href="#projects">Projects</a>
+          <a href="#qa">Q&amp;A</a>
+          <a href="#footer">Contact</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Social Media</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Behance</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="java.js"></script>
+</body>
+</html>

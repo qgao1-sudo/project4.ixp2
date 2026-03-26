@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Future Plan</title>
+  <link rel="stylesheet" href="cssreset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .detail-page {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 40px 80px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 20px;
+      color: var(--primary);
+      margin-bottom: 28px;
+    }
+
+    .detail-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 42px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 42px;
+    }
+
+    .detail-text {
+      font-size: 22px;
+      line-height: 1.45;
+      color: var(--text);
+      max-width: 980px;
+    }
+
+    .detail-text p {
+      margin-bottom: 22px;
+    }
+
+    @media (max-width: 900px) {
+      .detail-page {
+        padding: 32px 20px 60px;
+      }
+
+      .detail-title {
+        font-size: 34px;
+      }
+
+      .detail-text {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="detail-page">
+    <a href="index.html#qa" class="back-link">‹</a>
+
+    <h1 class="detail-title">Future Plan</h1>
+
+    <div class="detail-text">
+      <p>
+        As an ACCD Interaction Design student, my future plan is to continue
+        growing as a designer who can combine creativity, empathy, and
+        practical problem-solving. In the short term, I want to strengthen my
+        skills in user research, interface design, prototyping, and front-end
+        development so that I can create more complete and thoughtful digital
+        experiences.
+      </p>
+
+      <p>
+        I also hope to gain more internship experience in UX or product design.
+        Through real-world projects, I want to better understand how design
+        works in professional teams and how designers collaborate with
+        developers, researchers, and stakeholders. I believe these experiences
+        will help me become more confident, adaptable, and clear about the kind
+        of designer I want to be.
+      </p>
+
+      <p>
+        In the long term, I want to design products that solve meaningful
+        everyday problems and improve the way people connect with services,
+        spaces, and each other. I am especially interested in creating digital
+        experiences that feel not only functional, but also human-centered and
+        emotionally aware. For me, good design is not just about aesthetics —
+        it is about making people feel understood.
+      </p>
+
+      <p>
+        Overall, my future plan is to keep learning, keep building, and keep
+        challenging myself through new projects and opportunities. I hope to
+        grow into a designer who can create work that is both useful and
+        impactful.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") {
+      document.body.classList.add("dark");
+    }
+  </script>
+</body>
+</html>
