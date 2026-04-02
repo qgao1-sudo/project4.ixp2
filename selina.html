@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="reset.css" />
+<link rel="stylesheet" href="style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selina Zhao Portfolio</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="selina-style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+<a href="index.html" class="back-home" aria-label="Back to character select" style="position: fixed; top: 24px; left: 24px; z-index: 10000;">←</a>
+    <header class="header">
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu"
+        onclick="document.getElementById('siteNav').classList.toggle('open'); this.classList.toggle('active');">
+        <span></span>
+        <span></span>
+      </button>
+      
+
+      <nav class="nav" id="siteNav">
+        <a href="#about" class="nav-link">About me</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#qa" class="nav-link">Q&amp;A</a>
+        <a href="#footer" class="nav-link">Contact</a>
+      </nav>
+
+      <label class="theme-toggle" for="themeCheckbox" aria-label="Toggle dark mode">
+        <input type="checkbox" id="themeCheckbox" />
+        <span class="theme-slider"></span>
+      </label>
+    </header>
+
+    <main>
+      <section class="hero section" id="about">
+        <div class="hero-left">
+          <p class="hero-tag serif-title">Interaction Designer</p>
+          <h1 class="hero-title serif-title">Hello<br />I'm Selina Zhao !</h1>
+          <p class="hero-intro">
+            I’m Selina, a Term 2 Interaction Design student at ACCD. 
+            My daily routine is basically stressing over the next day’s assignments 
+            and counting down the days until break.
+          </p>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-photo-card js-slideshow">
+            <img class="hero-img active" src="selina1.jpg" alt="Selina photo 1" />
+            <img class="hero-img" src="selina2.jpg" alt="Selina photo 2" />
+            <img class="hero-img" src="selina3.jpg" alt="Selina photo 3" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-strip">
+        <div class="info-card">
+          <h3 class="serif-title">About Me</h3>
+          <p>
+            Passionate about building warm and expressive digital experiences
+            through storytelling, visual design, and interaction.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3 class="serif-title">Focus</h3>
+          <p>
+            UI/UX design, visual language, playful branding, and designing
+            experiences that feel both emotional and clear.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3 class="serif-title">Location</h3>
+          <p>
+            Chengdu / Pasadena / Los Angeles. Open to creative collaboration,
+            design opportunities, and visual storytelling projects.
+          </p>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-head">
+          <h2 class="section-title serif-title">Project</h2>
+
+          <div class="filter-group">
+            <button class="filter-btn">UI/UX</button>
+            <button class="filter-btn">Graphic Design</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card large-card">
+            <img src="project1.jpg" alt="WellGuard project" />
+
+            <div class="project-overlay">
+              <span class="project-label">UI Design</span>
+              <h3 class="project-name serif-title">WellGuard</h3>
+            </div>
+
+            <div class="project-hover-content">
+              <span class="project-label">UI Design</span>
+              <h3 class="project-name serif-title">WellGuard</h3>
+              <p class="project-description">
+                The app combines health monitoring, medication reminders,
+                 and emergency alerts to support daily care and emergencies.
+                <br /><br />
+                It turns wearable data into clear alerts, 
+                so caregivers are notified only when necessary.
+                 The system focuses on timely support, helping care receivers stay safe and independent.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card large-card">
+            <img src="Project2.jpg" alt="Friends Battle project" />
+
+            <div class="project-overlay">
+              <span class="project-label">UI Design</span>
+              <h3 class="project-name serif-title">HOMI</h3>
+            </div>
+
+            <div class="project-hover-content">
+              <span class="project-label">UI Design</span>
+              <h3 class="project-name serif-title">HOMI</h3>
+              <h4 class="project-subtitle">Chinese hand writing</h4>
+              <p class="project-description">
+                Oratouch is an interactive Chinese learning app that helps users
+                learn vocabulary and practice handwriting in a fun way. It combines
+                translation, visualized character meanings, and a personalized word
+                bank to support language learning.
+              </p>
+            </div>
+          </article>
+
+<article class="project-card large-card">
+  <img src="Project4.png" alt="Project 3" />
+
+  <div class="project-overlay">
+    <span class="project-label">Vibe Coding</span>
+    <h3 class="project-name serif-title">Echo Chamber</h3>
+  </div>
+
+  <div class="project-hover-content">
+    <span class="project-label">Vibe Coding</span>
+    <h3 class="project-name serif-title">Echo Chamber</h3>
+    <p class="project-description">
+      Echo Chamber is a mobile app designed to help users break out of their
+      social media bubbles and explore diverse perspectives. The app uses
+      algorithms to curate content from a wide range of sources, encouraging
+      users to engage with different viewpoints and fostering more open-minded
+      discussions.
+    </p>
+  </div>
+</article>
+
+<article class="project-card large-card">
+  <img src="project5.png" alt="Project 4" />
+
+  <div class="project-overlay">
+    <span class="project-label">Vibe Coding</span>
+    <h3 class="project-name serif-title">Rebillious Slime</h3>
+  </div>
+
+  <div class="project-hover-content">
+    <span class="project-label">Vibe Coding</span>
+    <h3 class="project-name serif-title">Rebillious Slime</h3>
+    <p class="project-description">
+      This project is an experimental interactive character built through vibe coding. 
+      I designed a rebellious slime that resists the user’s control: when dragged in one direction,
+     it moves the opposite way, making the interaction intentionally difficult. Through this behavior, 
+     the project explores personality, resistance, and a playful form of “intelligence” in digital creatures.
+    </p>
+  </div>
+</article>
+
+          <article class="project-card small-card">
+            <img src="Project14.jpg" alt="Poster design 1" />
+            <div class="project-overlay">
+              <h3 class="project-name serif-title">Object Design</h3>
+            </div>
+          </article>
+
+          <article class="project-card small-card">
+            <img src="Project15.jpg" alt="Poster design 2" />
+            <div class="project-overlay">
+              <h3 class="project-name serif-title">Visual Design</h3>
+          </article>
+
+          <article class="project-card small-card">
+            <img src="Project21.jpg" alt="Poster design 3" />
+            <div class="project-overlay">
+              <h3 class="project-name serif-title">Poster Design</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section qa-content-section" id="qa">
+        <div class="qa-content-head">
+          <h2 class="qa-content-main-title serif-title">Q&amp;A</h2>
+        </div>
+
+        <div class="qa-content-stack">
+          <article class="qa-box">
+            <h3 class="qa-box-title serif-title">Why ArtCenter</h3>
+
+            <div class="qa-box-layout">
+              <div class="qa-box-image-wrap">
+                <img src="selina-about.png" alt="Why ArtCenter photo" class="qa-box-image" />
+              </div>
+
+              <div class="qa-box-text">
+                <p>
+                  I chose to study Interaction Design at ArtCenter because I wanted a
+                  program that would challenge me to think deeply about design while
+                  also giving me the skills to create real-world products. I was
+                  drawn to ACCD’s strong focus on user-centered design, storytelling,
+                  and the intersection of creativity and technology. The school’s
+                  reputation for producing thoughtful, innovative designers also made
+                  it an exciting place to learn and grow.
+                </p>
+
+                <p>
+                  What really attracted me to ACCD is the strength of its program and the high level of ability that students are expected to reach. 
+                  I wanted to be in a place where the standards are high, the training is practical, 
+                  and the learning environment constantly pushes me to improve. The fast-paced,
+                   project-based structure at ACCD motivates me to work harder, think more clearly, 
+                   and keep strengthening both my ideas and execution.
+                </p>
+
+                <p>
+                  I’m also very happy to study in California, because I truly love the weather here and the overall atmosphere it creates. 
+                  For me, being in a place with such consistent sunshine and energy makes a big difference in daily life and creativity. 
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="qa-box">
+            <h3 class="qa-box-title serif-title">Experience Sharing</h3>
+
+            <div class="qa-box-text qa-box-text-full">
+              <p>
+                As an Interaction Design student at ACCD, my experience has gradually become a balance between adapting to the program, 
+                questioning the field, and reflecting on my own future. At first, I thought interaction design would be a good mix of creativity, 
+                technical skills, and practical problem-solving. But after studying here, I have started to feel that the reality matches a lot of what people describe online: the workload is exhausting, 
+                the pace is intense, and the long five-hour classes often feel physically and mentally unsustainable.
+              </p>
+
+              <p>
+                In school, I have tried to keep up by completing projects, learning design tools, and building basic technical skills. I spent a lot of time working on research, wireframes, visual presentations, and interactive prototypes, 
+                while also learning some HTML, CSS, and simple JavaScript. At the same time, this process has made me more uncertain about the future of interaction design, especially with the rapid development of AI. The more I study the field,
+                 the more I worry that some parts of the work may become increasingly replaceable, which has made me question whether I want to stay in this industry long term.
+              </p>
+
+              <p>
+                When it comes to my personal experience, this semester has also made me rethink what kind of work and learning environment is healthy for me. The pressure, screen time, and constant project deadlines have affected me more than I expected, 
+                and even my eyesight has gotten noticeably worse after just one semester. Instead of feeling more certain about pursuing interaction design as a long-term career, I’ve become more aware of the physical and emotional cost of this path. While I have still learned useful skills,
+                 this experience has also made me reflect seriously on whether this is the direction I want to continue in.
+              </p>
+            </div>
+          </article>
+
+          <article class="qa-box">
+            <h3 class="qa-box-title serif-title">Future Plan</h3>
+
+            <div class="qa-box-text qa-box-text-full">
+              <p>
+                As an ACCD Interaction Design student, my future plan has become much more focused on real life and personal freedom rather than continuing in school right away. At this point, I absolutely do not want to go directly into graduate school after graduation. Instead, I want to start working first, gain practical experience, 
+                and better understand what kind of life and career actually suits me.
+              </p>
+
+              <p>
+                I also hope to spend a few years building experience through work and becoming more financially independent. After working for some time, I want to use the money I earn to enjoy life a little, travel, and give myself a real break after such an intense period of study. I think it is important to step outside of school, see more of the world, and recover enough energy before deciding what kind of long-term path I truly want.
+              </p>
+
+              <p>
+                In the long term, I may want a more flexible career that allows me to do different kinds of work and keep exploring new interests. I want to try many things, enrich myself through different experiences, and build enough confidence and knowledge to possibly start my own business one day. If everything becomes stable in the future, my ideal life would be something closer to semi-retirement—having freedom, enough security, and the ability to live at my own pace.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="footer-brand serif-title">★ Selina Zhao</div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="#about">About me</a>
+          <a href="#projects">Projects</a>
+          <a href="#qa">Q&amp;A</a>
+          <a href="#footer">Contact</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Social Media</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Behance</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

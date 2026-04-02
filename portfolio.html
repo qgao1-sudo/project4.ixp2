@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anica Qian Portfolio</title>
+  <link rel="stylesheet" href="cssreset.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+<a href="index.html" class="back-home" aria-label="Back to character select" style="position: fixed; top: 24px; left: 24px; z-index: 10000;">←</a>
+    
+    <header class="header">
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu"
+  onclick="document.getElementById('siteNav').classList.toggle('open'); this.classList.toggle('active');">
+    <span></span>
+    <span></span>
+  </button>
+  
+
+  <nav class="nav" id="siteNav">
+    <a href="#about" class="nav-link">About me</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#qa" class="nav-link">Q&amp;A</a>
+    <a href="#footer" class="nav-link">Contact</a>
+  </nav>
+
+  <label class="theme-toggle" for="themeCheckbox" aria-label="Toggle dark mode">
+    <input type="checkbox" id="themeCheckbox" />
+    <span class="theme-slider"></span>
+  </label>
+</header>
+   
+    <main>
+      <section class="hero section" id="about">
+        <div class="hero-left">
+          <p class="hero-tag serif-title">Interaction Designer</p>
+          <h1 class="hero-title serif-title">Hello<br />I'm Anica Qian !</h1>
+          <p class="hero-intro">
+            My name is Anica Qian (Zixian Qian). I’m from Shenzhen, China,
+            and I’m 21 years old. I’m currently in Term 8 of the Interaction
+            Design program at ArtCenter College of Design, working and developing
+            as an interaction designer.
+          </p>
+          
+        </div>
+
+        <div class="hero-right">
+
+  <div class="hero-photo-card  js-slideshow">
+    <img class="hero-img active" src="img1.jpg" />
+    <img class="hero-img" src="img2.jpg" />
+    <img class="hero-img" src="img3.jpg" />
+  </div>
+</div>
+      </section>
+
+      
+      <section class="section about-strip">
+        <div class="info-card">
+          <h3 class="serif-title">About Me</h3>
+          <p>
+            Passionate about building thoughtful digital experiences with a
+            balance of visual design, storytelling, and usability.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3 class="serif-title">Focus</h3>
+          <p>
+            UI/UX design, interaction systems, graphic language, and portfolio
+            storytelling across digital products.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3 class="serif-title">Location</h3>
+          <p>
+            Shenzhen / Pasadena / Los Angeles. Open to creative collaboration,
+            internship, and design opportunities.
+          </p>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-head">
+          <h2 class="section-title serif-title">Project</h2>
+
+          <div class="filter-group">
+          
+            <button class="filter-btn">UI/UX</button>
+            <button class="filter-btn">Graphic Design</button>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card large-card">
+  <img src="img7.jpg" alt="MOODOG project" />
+
+  <div class="project-overlay">
+    <span class="project-label">UI Design</span>
+    <h3 class="project-name serif-title">MOODOG</h3>
+  </div>
+
+  <div class="project-hover-content">
+    <span class="project-label">UI Design</span>
+    <h3 class="project-name serif-title">MOODOG</h3>
+    <p class="project-description">
+      Moodog is a solution platform that records your dog's mood changes
+      and brings it closer to you.
+      <br /><br />
+      Better for people understand their dogs. A special pattern will be
+      created that represents the daily relationship between dogs and
+      masters. Make the information can be clearly understand and considered.
+    </p>
+  </div>
+</article>
+
+         <article class="project-card large-card">
+  <img src="img5.jpg" alt="Friends Battle project" />
+
+  <div class="project-overlay">
+    <span class="project-label">Final UI Design</span>
+    <h3 class="project-name serif-title">Friends Battle</h3>
+  </div>
+
+  <div class="project-hover-content">
+    <span class="project-label">Final UI Design</span>
+    <h3 class="project-name serif-title">Friends Battle</h3>
+    <h4 class="project-subtitle">Chinese hand writing</h4>
+    <p class="project-description">
+      Oratouch is an interactive Chinese learning app that helps users
+      learn vocabulary and practice handwriting in a fun way. It combines
+      translation, visualized character meanings, and a personalized word
+      bank to support language learning. 
+  </div>
+</article>
+
+          <article class="project-card small-card">
+  <img
+    src="img9.jpg"
+    alt="Poster design 1"
+  />
+  <div class="project-overlay">
+    <h3 class="project-name serif-title">Poster Design</h3>
+  </div>
+</article>
+          <article class="project-card small-card">
+            <img
+              src="img10.jpg"
+              alt="Poster design 2"
+            />
+          </article>
+
+          <article class="project-card small-card">
+            <img
+              src="img21.jpg"
+              alt="Poster design 3"
+            />
+          </article>
+        </div>
+
+       
+      </section>
+
+      <section class="section qa-content-section" id="qa">
+  <div class="qa-content-head">
+    <h2 class="qa-content-main-title serif-title">Q&amp;A</h2>
+  </div>
+
+  <div class="qa-content-stack">
+    <article class="qa-box">
+      <h3 class="qa-box-title serif-title">Why ArtCenter</h3>
+
+      <div class="qa-box-layout">
+        <div class="qa-box-image-wrap">
+          <img src="img20.jpg" alt="Why ArtCenter photo" class="qa-box-image" />
+        </div>
+
+        <div class="qa-box-text">
+          <p>
+            I chose to study Interaction Design at ArtCenter College of Design
+            because I’ve always been interested in how technology shapes the
+            way people experience the world. Compared to traditional design,
+            interaction design feels more alive—it’s not just about how things
+            look, but how people think, feel, and act when they use a product.
+          </p>
+
+          <p>
+            What really drew me to ACCD is its strong emphasis on both
+            conceptual thinking and real-world execution. I wanted a program
+            that doesn’t just teach tools, but challenges me to think critically
+            about user behavior, storytelling, and problem-solving. The
+            fast-paced, project-based environment at ACCD pushes me to
+            constantly iterate, test ideas, and refine my work, which fits the
+            way I like to learn.
+          </p>
+
+          <p>
+            I’m especially interested in designing products that connect people
+            and solve real-life problems. For example, I’ve been exploring ideas
+            around housing and roommate matching apps, where user experience
+            goes beyond functionality and touches on trust, communication, and
+            emotional needs. ACCD provides the perfect environment to explore
+            these kinds of ideas while building strong design skills.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article class="qa-box">
+      <h3 class="qa-box-title serif-title">Experience Sharing</h3>
+
+      <div class="qa-box-text qa-box-text-full">
+        <p>
+          As an Interaction Design student at ACCD, I see my learning plan as a
+          balance between creativity, technical skills, and real-world
+          problem-solving. Interaction design is not just about making
+          interfaces look good. It is about understanding people, identifying
+          problems, and designing experiences that are both meaningful and
+          functional. Because of that, I try to build my skills in three areas:
+          design thinking, visual communication, and prototyping.
+        </p>
+
+        <p>
+          In school, I focus on strengthening my foundation through class
+          projects. I pay a lot of attention to user research, storyboarding,
+          wireframing, and building interactive prototypes in tools like Figma.
+          At the same time, I know that being an interaction designer today
+          also means understanding how products actually get built, so I have
+          been learning more about front-end basics like HTML, CSS, and simple
+          JavaScript. My goal is to become a designer who can not only generate
+          ideas, but also communicate clearly with developers and bring concepts
+          closer to reality.
+        </p>
+
+        <p>
+          When it comes to internships, I’ve learned that finding opportunities
+          takes more than just submitting applications. A strong portfolio is
+          the most important part, so I try to treat every school project as a
+          chance to build portfolio-quality work. Instead of only showing final
+          screens, I focus on showing my process: the problem, the research,
+          the design decisions, and how the final solution responds to user
+          needs. I’ve also realized that personal projects can be just as
+          valuable, especially when they reflect problems I genuinely care
+          about.
+        </p>
+      </div>
+    </article>
+
+    <article class="qa-box">
+      <h3 class="qa-box-title serif-title">Future Plan</h3>
+
+      <div class="qa-box-text qa-box-text-full">
+        <p>
+          As an ACCD Interaction Design student, my future plan is to continue
+          growing as a designer who can combine creativity, empathy, and
+          practical problem-solving. In the short term, I want to strengthen my
+          skills in user research, interface design, prototyping, and front-end
+          development so that I can create more complete and thoughtful digital
+          experiences.
+        </p>
+
+        <p>
+          I also hope to gain more internship experience in UX or product
+          design. Through real-world projects, I want to better understand how
+          design works in professional teams and how designers collaborate with
+          developers, researchers, and stakeholders. I believe these
+          experiences will help me become more confident, adaptable, and clear
+          about the kind of designer I want to be.
+        </p>
+
+        <p>
+          In the long term, I want to design products that solve meaningful
+          everyday problems and improve the way people connect with services,
+          spaces, and each other. I am especially interested in creating
+          digital experiences that feel not only functional, but also
+          human-centered and emotionally aware. For me, good design is not just
+          about aesthetics — it is about making people feel understood.
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+      
+      
+    </main>
+
+   
+    <footer class="footer" id="footer">
+      <div class="footer-brand serif-title">★ Anica Qian</div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="#about">About me</a>
+          <a href="#projects">Projects</a>
+          <a href="#qa">Q&amp;A</a>
+          <a href="#footer">Contact</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Social Media</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Behance</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
