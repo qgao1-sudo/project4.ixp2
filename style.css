@@ -1101,3 +1101,12 @@ body:has(#themeCheckbox:checked) .qa-box-text,
 body:has(#themeCheckbox:checked) .qa-box-text-full {
   color: var(--text);
 }
+
+body:has(#themeCheckbox:checked) .qa-box {
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+body:has(#themeCheckbox:checked) .qa-box-title {
+  color: var(--primary);
+}
