@@ -1094,3 +1094,10 @@ body:has(#themeCheckbox:checked)  .hero-photo-card {
     padding: 0 16px !important;
   }
 }
+
+body:has(#themeCheckbox:checked) .qa-box,
+body:has(#themeCheckbox:checked) .qa-box p,
+body:has(#themeCheckbox:checked) .qa-box-text,
+body:has(#themeCheckbox:checked) .qa-box-text-full {
+  color: var(--text);
+}
